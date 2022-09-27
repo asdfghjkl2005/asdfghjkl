@@ -33,6 +33,6 @@ int tarifa1A(int consumo)
     printf("Cobro por consumo basico: %.2f\n",consumo_basico);
     printf("Cobro por consumo I. bajo: %.2f\n",consumo_Ibasico);
     printf("Cobro por consumo excedente: %.2f\n",consumo_Excedente);
-    return (consumo_Excedente + consumo_Ialto + consumo_Ibasico + consumo_basico);
+    return (consumo_Excedente + consumo_Ibasico + consumo_basico);
 
 }
